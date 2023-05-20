@@ -1,14 +1,14 @@
-import { SiGooglekeep, SiGooglemaps, SiGooglecalendar } from 'react-icons/si';
+import { SiGooglekeep, SiGooglemaps } from 'react-icons';
 
 import { CgGoogleTasks } from 'react-icons/cg';
-import { IoIosContact } from 'react-icons/io';
+import { IoIosContact, IoCalendarNumberOutline } from 'react-icons/io';
 import { AiOutlinePlus, AiOutlineRight } from 'react-icons/ai';
 
 const Sidebar = () => {
   return (
     <div className='w-16 flex flex-col absolute right-0 -top-[55px] h-[calc(100%+50px)]'>
       <div className='flex flex-col gap-y-9 items-center py-3'>
-        <SiGooglecalendar size={24} />
+        <IoCalendarNumberOutline size={24} />
         <SiGooglekeep size={24} />
         <CgGoogleTasks size={24} />
         <IoIosContact size={24} />

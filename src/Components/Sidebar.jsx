@@ -1,5 +1,3 @@
-import { AiOutlinePlus, AiOutlineRight } from 'react-icons/ai';
-
 import calendar from '../assets/google-calendar.png';
 import keep from '../assets/google-keep.png';
 import tasks from '../assets/tasks.png';
@@ -18,8 +16,8 @@ const Sidebar = () => {
       </div>
       <span className='w-10/12 mx-auto h-[1px] bg-gray-200 my-3'></span>
       <div className='flex flex-col justify-between items-center h-full'>
-        <AiOutlinePlus size={24} />
-        <AiOutlineRight size={24} />
+        <span className='text-2xl'>+</span>
+        <span className='text-2xl'>&#9002;</span>
       </div>
     </div>
   );

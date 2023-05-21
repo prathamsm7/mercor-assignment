@@ -29,7 +29,7 @@ const EditorToolbar = () => {
       <MdSpellcheck size={20} title='Spelling and Grammer Check' />
       <BiPaintRoll size={20} title='Pain Format' />
       <select
-        value='100%'
+        defaultValue='100%'
         className='bg-transparent outline-blue-600'
         title='Zoom'
       >
@@ -41,7 +41,7 @@ const EditorToolbar = () => {
       </select>
       <span className='w-[1px] h-[60%] bg-gray-300 my-3'></span>
       <select
-        value='Normal Text'
+        defaultValue='Normal Text'
         className='bg-transparent outline-blue-600'
         title='Styles'
       >
@@ -52,7 +52,7 @@ const EditorToolbar = () => {
         <option value='Normal Text5'>Normal Text 5</option>
       </select>
       <select
-        value='Arial '
+        defaultValue='Arial '
         className='bg-transparent outline-blue-600'
         title='Font'
       >
@@ -66,7 +66,7 @@ const EditorToolbar = () => {
         -
       </button>
       <select
-        value='11 '
+        defaultValue='11 '
         className='bg-transparent outline-blue-600'
         title='Font'
       >

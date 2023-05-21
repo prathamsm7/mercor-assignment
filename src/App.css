@@ -6,7 +6,8 @@
 }
 
 svg,
-select {
+select,
+.google-apps img {
   cursor: pointer;
 }
 
@@ -44,4 +45,9 @@ svg:hover,
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.google-apps img {
+  height: 20px;
+  width: 20px;
 }

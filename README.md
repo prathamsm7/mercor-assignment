@@ -1,3 +1,6 @@
+Hey, Hello There !. Welcome to my SPA application of google docs editing screen UI clone .It is build using ReactJS, CSS , react icons and deployed on Netlify .
+<img width="960" alt="image" src="https://github.com/prathamsm7/mercor-assignment/assets/79472183/773983e6-aa31-494f-92e4-4ba46e1d111c">
+
 1. Editor Toolbar Component - This component represent the text-editor toolbar . Which includes all text-editor related styles options .
 ![image](https://github.com/prathamsm7/mercor-assignment/assets/79472183/2ca54ae9-7016-42d9-9c4d-cb1fb5985b61)
 
